@@ -1,0 +1,25 @@
+[package]
+name = "srlog"
+version = "0.1.0"
+edition = "2021"
+authors = ["Alexander Simonov <asimonov@courvix.com>"]
+description = "Simple logging with templating"
+
+
+include = [
+    "src/**/*",
+    "tests/**/*"
+]
+
+[dependencies]
+chrono = "0.4.31"
+colored = "2.1.0"
+leon = "2.0.1"
+
+[[test]]
+name = "simple"
+harness = false
+
+[[test]]
+name = "custom_template"
+harness = false
