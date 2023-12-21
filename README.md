@@ -4,6 +4,8 @@ Simple logging with templating
 
 - **Disclaimer**: *srlog was created as an alternative to the **spdlog** in Rust. However, since I'm still a beginner, the code may be bad and so on. Any contribution or feature suggestion is much appreciated!*
 
+Use `cargo add srlog` to add srlog to your project
+
 # Examples
 
 - Basic usage
